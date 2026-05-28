@@ -1,0 +1,32 @@
+aid: herohunt-people-search
+name: HeroHunt People Search
+description: "Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing"
+url: https://www.herohunt.ai/people-search-api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: HeroHunt People Search
+    description: "Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing"
+    humanURL: https://www.herohunt.ai/people-search-api
+    baseURL: https://www.herohunt.ai/people-search-api
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: https://www.herohunt.ai/people-search-api
+common:
+  - type: Website
+    url: https://www.herohunt.ai/people-search-api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
