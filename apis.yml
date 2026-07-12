@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://www.herohunt.ai/people-search-api
 common:
+  - type: DomainSecurity
+    url: security/herohunt-people-search-domain-security.yml
   - type: Website
     url: https://www.herohunt.ai/people-search-api
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://www.herohunt.ai/rss.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
