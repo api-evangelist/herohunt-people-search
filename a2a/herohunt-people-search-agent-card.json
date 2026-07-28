@@ -1,0 +1,45 @@
+{
+  "name": "HeroHunt People Search API",
+  "description": "Enterprise-grade people search and enrichment API. Search for talent profiles across GitHub, StackOverflow, and the web using natural language queries. Enrich profiles with verified emails and phone numbers.",
+  "url": "https://www.herohunt.ai",
+  "capabilities": [
+    "people_search",
+    "profile_enrichment",
+    "email_finding",
+    "candidate_sourcing"
+  ],
+  "authentication": {
+    "type": "bearer",
+    "header": "Authorization",
+    "key_env_var": "HEROHUNT_API_KEY",
+    "signup_url": "https://www.herohunt.ai/app/api/sign-up"
+  },
+  "mcp": {
+    "url": "https://api.herohunt.ai/api/v1/mcp",
+    "transport": "streamable-http",
+    "tools": [
+      "people_search",
+      "people_search_paginate",
+      "account_usage_get",
+      "account_searches_list",
+      "account_upgrade_link",
+      "account_billing_portal_link",
+      "api_keys_list",
+      "api_keys_create",
+      "api_keys_rotate",
+      "api_keys_revoke"
+    ],
+    "npm_package": "herohunt-mcp"
+  },
+  "sdks": {
+    "npm": "herohunt-mcp",
+    "pypi": "herohunt"
+  },
+  "documentation": "https://www.herohunt.ai/people-search-api",
+  "api_docs": "https://api.herohunt.ai/people-api-docs",
+  "contact": "info@herohunt.ai",
+  "logo": "https://www.herohunt.ai/_assets/images/615b4b2f5579875d7f16843c_Hero-logo.png",
+  "pricing": "https://www.herohunt.ai/app/api/dashboard",
+  "terms_of_service": "https://www.herohunt.ai/terms-and-conditions",
+  "privacy_policy": "https://www.herohunt.ai/privacy-policy"
+}
