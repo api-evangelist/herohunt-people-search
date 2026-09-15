@@ -63,6 +63,8 @@ common:
     url: https://github.com/public-apis/public-apis
   - url: https://www.herohunt.ai/rss.xml
     type: Blog
+  - type: Support
+    url: mailto:info@herohunt.ai
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
