@@ -35,14 +35,17 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Job
   - Public APIs
+  - A2A
+  - Recruiting
 tags_raw:
   - Jobs
   - Public APIs
+  - A2A
+  - Recruiting
 apis:
   - name: HeroHunt People Search
     description: "Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing"
     humanURL: https://www.herohunt.ai/people-search-api
-    baseURL: https://www.herohunt.ai/people-search-api
     tags:
       - Job
     tags_raw:
